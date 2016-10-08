@@ -293,8 +293,29 @@ footer p {
     height: auto;
     padding-bottom: 5px;
     padding-top: 5px;
-
   }
 
+  .thumbnail {
+    margin-top: 25px;
+  }
+
+  .thumbnail .default-thumbnail {
+    color: white;
+    line-height: 1;
+    margin-top: -25px;
+  }
+
+  .thumbnail a {
+    font-size: 18px;
+    color: #000;
+  }
+
+  .on-hover {
+    display: block;
+  }
+
+  #contact {
+    padding-top: 20px;
+  }
 
 }
