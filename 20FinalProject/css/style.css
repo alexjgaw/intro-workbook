@@ -284,6 +284,17 @@ footer p {
     font-size: 18px;
   }
 
+  #contact {
+    padding-top: 20px;
+  }
+
+}
+
+@media only screen and (max-width : 1024px){
+  .hero {
+    background-attachment: scroll;
+  }
+
   .no-pic {
     height: auto;
     padding-bottom: 10px;
@@ -312,16 +323,5 @@ footer p {
 
   .on-hover {
     display: block;
-  }
-
-  #contact {
-    padding-top: 20px;
-  }
-
-}
-
-@media only screen and (max-width : 1024px){
-  .hero {
-    background-attachment: scroll;
   }
 }
